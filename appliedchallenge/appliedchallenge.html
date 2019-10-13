@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Hunter Hackley | INFO 2349 | Applied Challenge #1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="_css/themes/ctheme1.css">
+    <link rel="stylesheet" href="_css/themes/jquery.mobile.icons.min.css">
+
+    
+  </head>
+
+  <body>
+    <!-- Hunter Hackley
+     index.html
+     INFO2439
+     Thoendel
+     10/13/19
+-->
+    
+      <input name="recipient" type="hidden" value="hkhackley@mail.mccneb.edu">
+      <div data-role="page" id="applied challenge">
+        <div data-role="header">
+            <h1>Sage Bistro Customer Survey</h1>
+        <div data-role="navbar">
+              <ul>
+            <a href="appliedchallenge.html" class="ui-btn-active" rel="external">Customer Survey</a>
+            <a href="Findus.html" rel="external">Find Us</a>
+            <a href="Reservation.html" rel="external">Reservation</a> 
+            <a href="Menu.html" rel="external">Menu</a>
+          </ul>
+          </div>
+        </div>
+        <div data-role="main" class="ui-content">
+          <h1>Bistro Customer Survey</h1>
+          <form action="http://emthoendel.faculty.mccinfo.net/2439/bistrosurvey_insert.php" method="post">
+
+            <div class="ui-field-contain">
+              <legend>How would you rate your meal today?</legend>
+              <select name="meal" id="meal_rate">
+                <option value="" disabled selected hidden>Select Rating</option>
+                <option value="meal_rating1">1-Poor</option>
+                <option value="meal_rating2">2-Needs Work</option>
+                <option value="meal_rating3">3-Fair</option>
+                <option value="meal_rating4">4-Good</option>
+                <option value="meal_rating5">5-Excellent</option>
+              </select>
+            </div>
+            <div class="ui-field-contain">
+              <legend>How would you rate your service today?</legend>
+              <select name="service" id="service">
+                <option value="" disabled selected hidden>Select Rating</option>
+                <option value="service_rating1">1-Poor</option>
+                <option value="service_rating2">2-Needs Work</option>
+                <option value="service_rating3">3-Fair</option>
+                <option value="service_rating4">4-Good</option>
+                <option value="service_rating5">5-Excellent</option>
+              </select>
+            </div>
+            <div class="ui-field-contain">
+              <legend>How would your overall experience today?</legend>
+              <select name="experience" id="experience">
+                <option value="" disabled selected hidden>Select Rating</option>
+                <option value="experice_rating1">1-Poor</option>
+                <option value="experience_rating2">2-Needs Work</option>
+                <option value="experience_rating3">3-Fair</option>
+                <option value="experience_rating4">4-Good</option>
+                <option value="experience_rating5">5-Excellent</option>
+              </select>
+            </div>
+            <fieldset data-role="controlgroup" data-type="horizontal">
+              <legend>Would you recommend this restaurant to a friend?</legend>
+
+              <input type="radio" name="Y1" id="Y1" value="Yes">
+              <label for="Y1">Yes</label>
+
+              <input type="radio" name="N1" id="N1" value="No">
+              <label for="N1">No</label>
+            </fieldset>
+            <label for="firstname">
+              Name
+              <input mbsc-input id="f_name" type="text" placeholder="First Name" />
+            </label>
+            <label for="email">
+              Email
+              <input mbsc-input id="email" type="text" placeholder="Email Address" />
+            </label>
+            <h1></h1>
+            <input type="submit" name="sumbit" value="Submit Feedback">
+
+            <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">Contact: <a href="mailto:hkhackley@mail.mccneb.edu" class="ui-btn-active">Hunter H</a></div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+  </body>
+
+</html>
