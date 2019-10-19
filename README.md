@@ -6,4 +6,3 @@ a template repository for the 2439 midterm project
 ***WIREFRAME*** I ran out of projects to save apparently so i just took screenshots of each page and put them in a "Wireframe" folder in this repository
 
 ***USABILITY*** File from session profiling in "Usability Profile" Folder
-[Applied Challenge #1 Instructions](https://docs.google.com/document/d/e/2PACX-1vTbclFb83xohS9hWkVu7YA7JnSVJqh5Lz53HwQE6UONAhgtpvLjYeUGF1lqurwyjg/pub)
